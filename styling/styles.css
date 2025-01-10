@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+    font-family: Roboto, open-sans, sans-serif;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+#header, #hero, #footer {
+    background-color: #1f2937;
+}
+
+#logo, h1 {
+    color: #f9faf8
+}
+
+#hero p, #footer, a {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+#action, button {
+    background-color: #3882f6;
+}
+
+#info, #quote {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+#info, h1 {
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+#quote {
+    background-color: #e5e7eb;
+}
+
+#logo {
+    font-size: 24px;
+}
+
